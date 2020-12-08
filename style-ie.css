@@ -1,0 +1,40 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */	
+	#order-mini .dis-tab,
+	#order-mini .ver-mid{
+		display:block;
+	}	
+	#order-mini .dis-tab .ver-mid{
+		padding-top:10px;
+	}
+	#header #order-mini .order-corporate .copyr{
+		width:75px;
+	}
+	#contacts-and-navigation #navigat .catal-menu-searh #top-searh .searh-butt{
+		left:auto;
+	}
+	.table-row.table-body .photo.table-col,
+	.table-row.table-body .name.table-col,
+	.table-row.table-body .price.table-col,
+	.table-row.table-body .srores.table-col{
+		overflow:visible;
+	}
+	.table-body .quanti .quanti-plac .quanti-control,
+	#catalog-detail .quanti .quanti-plac .quanti-control,
+	#basket-order .body-table .quanti .quanti-plac .quanti-control{	
+		left:auto;
+	}
+	.table-row .srores [data-id-srores]{
+		top:auto;
+	}
+	.table-body .photo .label{
+		top:auto;
+		left:auto;
+	}
+	#basket-fly.sticky-bottom-ie{
+		position:fixed;
+	}
+	#filter .ul-sub .input_rang .find{
+		width:95px;
+	}
+}
