@@ -1,0 +1,185 @@
+
+
+/* Start:/local/components/panin/catalog.elvis/templates/.default/style.css?1587737400249*/
+#breadcrumb-sectionlist.search{
+	margin-left: 300px; 
+}
+@media (max-width: 1919px){
+	#breadcrumb-sectionlist.search{
+	    margin-left: calc( 15% + 16px );
+	}
+}
+@media (max-width: 1279px) {
+	#breadcrumb-sectionlist.search{
+	    margin-left: 0;		
+	}
+}
+/* End */
+
+
+/* Start:/local/components/panin/catalog.smartfilter.elvis/templates/.default/style.css?15907370604280*/
+#filter{
+  width: 268px;
+  margin-right: 32px;
+  margin-bottom: 20px;
+}
+#filter #smart-filter-select .select-title {  
+  border-bottom: 1px solid #8e8e8e;
+  padding: 30px 0 20px 0; 
+}
+  #filter #smart-filter-select .select-title .select-name {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase; }
+  #filter #smart-filter-select .select-title .select-clear {
+    border-bottom: 1px solid #8e8e8e;
+	display: table;
+    font-size: 14px; }
+  #filter #smart-filter-select .select-list .select-list-item {
+    min-height: 35px;
+    border-bottom: 1px solid #8e8e8e;
+    padding: 9px 8px;
+  }
+	  #filter #smart-filter-select .select-list .select-list-item .select-prop-name,
+	  #filter #smart-filter-select .select-list .select-list-item .select-prop-value{
+		word-break:break-word;
+	  }
+	  #filter #smart-filter-select .select-list .select-list-item .select-prop-name{
+		width: 50%;
+		margin-right:5px;
+		 font-weight: 700;
+	  }
+	  #filter #smart-filter-select .select-list .select-list-item .select-prop-value{
+		width: calc( 42% - 5px ); 
+		font-size: 13px; 
+	  }	  
+    #filter #smart-filter-select .select-list .select-list-item .select-prop-del {
+      width: 20px;
+      height: inherit;      
+      text-align: right;
+      background-repeat: no-repeat;
+      background-image: url("");
+      background-size: 10px;
+      background-position-x: 6px;
+      background-position-y: center;
+      cursor: pointer;      
+
+    }
+#filter #smart-filter-list, 
+#filter #smart-filter-list ul, 
+#filter #smart-filter-list ul li {
+      padding: 0;
+      margin: 0; }
+  #filter #smart-filter-list {
+    margin-top: 30px; }
+  #filter #smart-filter-list li {
+    list-style-type: none; }
+  #filter #smart-filter-list .smart-name {
+    padding-left: 27px;
+    font-weight: 700;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    background-image: url("arrbutt.png");
+    background-size: 11px;
+    background-position-x: 6px;
+    background-position-y: center;
+    cursor: pointer;
+  }
+  #filter #smart-filter-list .li-main {
+    margin-bottom: 10px; }
+  #filter #smart-filter-list .li-main .ul-sub {
+    margin-left: 27px;
+    margin-top: 8px;
+    display: none; }
+    #filter #smart-filter-list .li-main .ul-sub li {      
+      margin-bottom: 10px;
+      padding-left: 24px;
+      font-size: 14px;    
+      line-height: 16px;
+      color: #565656;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-image: url("checkbox.svg");
+      background-size: 16px;
+      background-position-x: left;          
+    }
+     #filter #smart-filter-list .li-main .ul-sub li.disabled {
+      background-image: url("checkbox-hover.svg");
+      color: #aaa;
+      cursor: not-allowed;
+     }
+      #filter #smart-filter-list .li-main .ul-sub li input[type=checkbox] {
+        display: none;
+      }
+    #filter #smart-filter-list .li-main .ul-sub li:hover {
+      background-image: url("checkbox-hover.svg"); }
+    #filter #smart-filter-list .li-main .ul-sub li.activ {
+      background-image: url(""); }
+  #filter #smart-filter-list .li-main .ul-sub li.butt-sub{
+    background:none;
+    padding:0;
+  }    
+  #filter #smart-filter-list .li-main .butt-sub .like-sub {
+    cursor: pointer;
+    margin-top: 3px; }
+  #filter #smart-filter-list .li-main.activ {
+    margin-bottom: 35px; }
+  #filter #smart-filter-list .li-main.activ .smart-name {
+    background-image: url("arrup.png"); }
+  #filter #smart-filter-list .li-main.activ .ul-sub {
+    display: block; }
+#filter .filt-total-himd{
+  z-index:16;
+  /*background-color: transparent;*/
+  background-color: rgba(0,0,0,.2);
+  width: 100%;
+  height: 100%;
+}	
+#filter .filt-total-himd .filt-total-himd-plan{
+  background-color: #ffffff;
+  padding: 15px 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  left: 195px;  
+}
+#filter .filt-total-himd .filt-total-himd-plan .field{
+  padding-top: 10px;
+}
+#filter .ul-sub .input_rang{
+	width:100%;
+	margin-bottom:14px;
+}
+#filter .ul-sub .input_rang .find{
+	width:90px;
+}
+#filter .ul-sub .input_rang input{
+	padding-left:5px;
+	width:70px;
+	height:24px;
+	border:0px;
+	box-shadow: inset 4px 4px 4px -4px;
+}
+#filter .disabledButt{
+	cursor:not-allowed;
+	color:#cccccc;
+	background-color:#4d5666
+}
+/* End */
+
+
+/* Start:/local/templates/adaptive_pattern/components/bitrix/breadcrumb/.default/style.css?1583331301163*/
+.breadcrumb{
+	margin: 30px 0 20px 0;	
+}
+.breadcrumb .breadcrumb-item{
+	font-size: 12px;
+	font-weight: 400;
+}
+.breadcrumb .breadcrumb-item.split{
+	margin:0 5px; 
+}
+
+/* End */
+/* /local/components/panin/catalog.elvis/templates/.default/style.css?1587737400249 */
+/* /local/components/panin/catalog.smartfilter.elvis/templates/.default/style.css?15907370604280 */
+/* /local/templates/adaptive_pattern/components/bitrix/breadcrumb/.default/style.css?1583331301163 */
